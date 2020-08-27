@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.course-container{
+    width: 70%;
+    border-right: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+.added-course{
+    padding: 20px;
+    width: 30%;
+}

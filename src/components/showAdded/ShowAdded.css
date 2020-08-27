@@ -1,0 +1,26 @@
+.element-container{
+    display: flex;
+    margin: 10px;
+    border: 1px solid lightblue;
+    background-color: lightpink;
+    position: relative;
+    z-index: 1;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.3);
+    z-index: 9;
+    color: white;
+}
+.element-container:hover{
+    cursor: pointer;
+}
+.element-container:hover .overlay{
+    right: 0;
+}
+.img-container img{
+    height: 80px;
+}
